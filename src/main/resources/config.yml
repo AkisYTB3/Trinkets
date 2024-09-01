@@ -1,0 +1,25 @@
+trinkets_menu:
+  title: Trinkets Menu
+  empty_slot: BLACK_STAINED_GLASS_PANE # can also be replaced with oraxen:item_id | https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  slots: # to add more trinket slots, just add an entry in this format (#: type) # is the number of the slot (starting with 0), available types: head, chest, legs, feet
+    12: head
+    21: chest
+    22: chest
+    30: legs
+    39: feet
+    # CHANGING ANY OF THE ARMOR SLOTS MAY BREAK THE PLUGIN!!!!!!! KEEP THE ARMOR SLOTS THE SAME BECAUSE IT MAY MAKE A DUPLICATION GLITCH, TRYING TO FIX IT CURRENTLY!!!!!!!!
+    37: boots # Don't change!
+    28: leggings # Don't change!
+    19: chestplate # Don't change!
+    10: helmet # Don't change!
+
+
+feet_trinkets:
+  speed_socks:
+    oraxen_item: speed_socks # As of 1.0.0 only works with Oraxen (https://oraxen.com/) custom items.
+    effects:
+      speed: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+        amplifier: 0 # if unset, it's 0, 0 doesn't mean that the effect is disabled, it means that it's a level 1 effect
+        ambient: true # if unset, it's true
+        particles: false # if unset, it's true
+        has_icon: true # if unset, it's true

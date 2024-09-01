@@ -1,0 +1,10 @@
+name: Trinkets
+version: '1.0.0'
+main: org.twipnetwork.trinkets.Trinkets
+api-version: '1.21'
+authors: [ Akis ]
+description: Implements a trinket system
+depend: [Oraxen]
+commands:
+  trinkets:
+    description: Does stuff with the trinkets

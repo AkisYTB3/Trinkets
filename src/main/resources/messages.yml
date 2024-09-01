@@ -1,0 +1,6 @@
+prefix: "<dark_purple>[<light_purple>ɴᴏᴛɪᴏɴ<dark_purple>] "
+
+command_usage: "<dark_aqua>Usage: /trinkets <reload|gui|open>"
+config_reloaded: "<dark_aqua>Trinkets configuration reloaded."
+no_permission: "<dark_red>You do not have permission to use this command."
+player_only_command: "<dark_red>This command can only be run by a player."
